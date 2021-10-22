@@ -269,6 +269,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    color: white;
 }
 #last div{
     flex-basis: 25%;
