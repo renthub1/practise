@@ -101,7 +101,7 @@ hr{
 }
 #second{
     width: 100%;
-    background-color: #182C61;
+    background-color: #353b48;
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
@@ -270,16 +270,17 @@ hr{
     justify-content: space-evenly;
     flex-wrap: wrap;
     color: white;
+    letter-spacing: .1rem;
 }
 #last div{
-    flex-basis: 25%;
-    padding: 0 2rem;
+    flex-basis: 25rem;
+    padding: 1rem;
     line-height: 2;
 }
 #last a{
     font-size: 1.1rem;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 #content6 img{
     width: 44px;
