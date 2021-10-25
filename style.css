@@ -72,7 +72,7 @@ html{
     color: black;
     letter-spacing: .2rem;
 }
-hr{
+#box hr{
     height: .9rem;
     background-color: red;
     box-shadow: 2px 1px 5px black;
@@ -124,10 +124,31 @@ hr{
 .box1{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .box1 img{
-    width: 28%;
+    width: 100%;
+}
+.box1 h2{
+    font-weight:lighter;
+    text-align: center;
+}
+.scroller{
+    padding: 1rem;
+}
+.box1 #bo1,#bo2{
+    box-shadow: 2px 1px 5px black;
+    flex-basis: 25rem;
+    line-height: 2;
+    margin: 3rem 0;
+}
+.box1 button{
+    font-size: 1rem;
+    padding: .5rem;
+    color: black;
+    border:#d35400;
+    cursor:pointer;
 }
 #third{
     background-image: url('pics/bg/bg1.jpg');
