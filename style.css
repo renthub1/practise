@@ -13,6 +13,7 @@ html{
     height: auto;
     background-image: url('21.png');
     background-size: cover;
+    background-position: center;
 }
 #head{
     width: 100%;
@@ -181,6 +182,7 @@ html{
     background-image: url('pics/bg/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -221,6 +223,7 @@ html{
     background-image: url('pics/bg/1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 2rem;
