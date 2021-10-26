@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=content-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>renthub</title>
     </head>
         <body>
@@ -13,14 +14,18 @@
                     <div id="logo">
                         <img src="sx.png" alt="yela">
                     </div>
-    <div id="menu">
+    <div id="menu" class="menu_list">
         <ul>
-            <li>slide up</li>
-            <li>book</li>
-            <li>services/facilily</li>
-            <li>about</li>
+            <li><a href="#header">slide up</a></li>
+            <li><a href="#second">book</a></li>
+            <li><a href="#third">services/facilily</a></li>
+            <li><a href="#fourth">works</a></li>
+            <li><a href="#fiveth">reviews</a></li>
+            <li><a href="#sixth">blog</a></li>
+            <li><a href="#seventh">contact us</a></li>
         </ul>
     </div>
+    <a href="#" onclick="icon()"><span class="material-icons">menu</span></a>
 </div>
 <div id="container">
     <div id="box">
@@ -225,5 +230,15 @@ Gram Bishanpur, Kandoli,Bidhodli, Dehradun,Uttarakhand, India, 248007
 <h3>Copyright ©2021 All rights reserved</h3>
 </div>
 </div>
+<script>
+function icon(){
+    var e=document.getElementById('menu');
+    if(e.className === 'menu_list'){
+        e.className += " responsive_menu";
+    }else{
+        e.className = 'menu_list';
+    }
+}
+</script>
         </body>
 </html>
