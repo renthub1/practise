@@ -254,6 +254,30 @@ html{
     color: gray;
     opacity: .85;
 }
+#slider{
+    background-image: url('road.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+#slider img{
+    /* margin-top: -10.8rem; */
+    width: 15rem;
+    height: 233px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    animation-name: slider;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    from{right: 0;}
+    to{right: 85%;}
+}
 /* .range > h5{
     padding-left: 17rem;
     color: white;
