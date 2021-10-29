@@ -12,7 +12,7 @@ html{
     width: 100%;
     height: auto;
     background-image: url('21.png');
-    background-size: cover; 
+    background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ html{
     /* margin:7rem 0 0 12rem; */
     background-image:linear-gradient(grey,#dcdde1);
     box-shadow: 2px 1px 9px black;
-    opacity: .9;
+    opacity: .89;
     color: black;
     letter-spacing: .2rem;
 }
@@ -103,6 +103,7 @@ html{
     height: .9rem;
     background-color: red;
     box-shadow: 2px 1px 5px black;
+    margin: auto;
 }
 #box > h1 ,p ,#img1{
     padding: 1rem;
@@ -142,7 +143,7 @@ html{
     text-transform: uppercase;
 }
 #content1 p{
-    column-count: 3;
+    column-count: 2;
     column-rule: dashed;
     column-gap: 10px;
     line-height: 2;
@@ -150,9 +151,10 @@ html{
 }
 .box1{
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    margin: auto;
 }
 .box1 img{
     width: 100%;
@@ -166,11 +168,12 @@ html{
 }
 .box1 #bo1,#bo2{
     box-shadow: 2px 1px 5px black;
-    flex-basis: 25rem;
+    /* flex-basis: 25rem; */
     line-height: 2;
-    margin: 3rem 0;
+    margin: 3rem auto;
+    width: 24rem;
 }
-.box1 button{
+.box1 .but{
     font-size: 1rem;
     padding: .5rem .9rem;
     color: white;
@@ -179,7 +182,7 @@ html{
     border-radius: .29rem;
     background-color: #e06d07;
 }
-.box1 button:hover{
+.box1 .but:hover{
     box-shadow: 0 0 5px #ff6a06;
 }
 #third{
@@ -241,6 +244,26 @@ html{
     width: 75%;
     font-size: 1.2rem;
     margin: auto;
+}
+#fourth hr{
+    /* size: 10rem; */
+    height: .8rem;
+    border-radius: 8%;
+    width: 70rem;
+    margin: 2rem auto;
+    color: gray;
+    opacity: .85;
+}
+.range > h5{
+    padding-left: 17rem;
+    /* margin: 0rem 17rem; */
+    color: white;
+    column-count: 7;                                
+    column-rule:groove;
+    text-align: justify;
+    column-gap: 17rem;
+    word-spacing: 1.2rem;
+    /* text-transform: capitalize; */
 }
 #fiveth{
     width: 100%;

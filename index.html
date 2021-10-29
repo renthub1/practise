@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <title>renthub</title>
     </head>
         <body>
@@ -45,40 +46,56 @@
     <div id="content1">
         <h1>our offer</h1>
         <p>
-            Our offers is available on our app.Book from renthub application for exlucive offers and prices.Our offers are daily updated on the app so that customer can easily select one and then apply them in the checkout page.Weekly discouted offers will be keep coming on the app. For our new customer the first two rides are almost for half of a price. We will be providing a lot of upcoming tours like rishikesh to badrinath bike rent. Minima, deserunt. Provident sed sapiente dolores et dolorem consectetur commodi aperiam eos iusto voluptatibus deleniti, suscipit tempora nemo est nam eligendi tempore.
+            Our offers is available on our app.Book from renthub application for exlucive offers and prices.Our offers are daily updated on the app so that customer can easily select one and then apply them in the checkout page.Weekly discouted offers will be keep coming on the app. For our new customer the first two rides are almost for half of a price. We will be providing a lot of upcoming tours like rishikesh to badrinath bike rent.
         </p>
     </div>
     <div class="box1">
-        <div id="bo1">
-        <img src="pics/7.webp">
-        <div class="scroller">
-        <h2>Honda activa 5g<br>
-        ₹550/day</h2>
-        Helmets 2
-        <hr>
-        Seats   2
-        <hr>
-        Transmission  2y
-        <hr>
-        Minimum age 2y<br>
-        <button type="button">Rent Now</button>
-    </div>
-    </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <div id="bo1">
+                    <img src="pics/7.webp" alt="activa 5g">
+                    <div class="scroller">
+                    <h2>Honda activa 5g<br>
+                    ₹550/day</h2>
+                    Helmets 2
+                    <hr>
+                    Seats   2
+                    <hr>
+                    Transmission  2y
+                    <hr>
+                    Minimum age 2y<br>
+                    <button type="button" class="but">Rent Now</button>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
                 <div id="bo2">
-                <img src="pics/8.webp">
-                <div class="scroller">
-                <h2>Honda cliq<br>
-                ₹500/day</h2>
-                Helmets 2
-                <hr>
-                Seats   2
-                <hr>
-                Transmission    2y
-                <hr>
-                Minimum age 2y<br>
-                <button type="button">Rent Now</button>
+                    <img src="pics/8.webp">
+                    <div class="scroller">
+                    <h2>Honda cliq<br>
+                    ₹500/day</h2>
+                    Helmets 2
+                    <hr>
+                    Seats   2
+                    <hr>
+                    Transmission    2y
+                    <hr>
+                    Minimum age 2y<br>
+                    <button type="button" class="but">Rent Now</button>
+                </div>
+                </div>
+              </div>
             </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
             </div>
 </div>
 <div id="third">
@@ -136,6 +153,10 @@
         <p>Install our application from any market and upload your driving license, book your ride and enjoy. If you want to book a ride in renthub or search for renthub just search for bike on rent in dehradun near isbt, dehradun bike rental dehradun uttarakhand dehradun scooty rent, hire bike in dehradun, bike hire in dehradun, bike rent in dehradun near me, bike rent on dehradun and that's it and take care of yourself please.
         </p>
     </div>
+    <hr>
+    <span class="range">
+        <h5>Download application Register details Select area Book ride Done</h5>
+    </span>
 </div>
 <div id="fiveth">
     <div id="content5">
@@ -231,6 +252,7 @@ Gram Bishanpur, Kandoli,Bidhodli, Dehradun,Uttarakhand, India, 248007
 </div>
 </div>
 <script>
+
 function icon(){
     var e=document.getElementById('menu');
     if(e.className === 'menu_list'){
@@ -240,5 +262,6 @@ function icon(){
     }
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         </body>
 </html>
