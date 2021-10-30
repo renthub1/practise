@@ -360,6 +360,12 @@ html{
     width: 100%;
     border-radius: 20%;
 }
+#comments{
+    background-color: #d35400;
+    width: 100%;
+    /* padding:2rem auto; */
+    margin: 2rem auto;
+}
 #seventh{
     width: 100%;
     padding-top: 4rem;
